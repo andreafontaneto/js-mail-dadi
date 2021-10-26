@@ -24,3 +24,5 @@ const listaMail = ['nomecognome1@mail.com',
 'nomecognome10@mail.com',
 ];
 
+const cercaMail = false;
+
