@@ -12,18 +12,35 @@
       - ALTRIMENTI dichiaro che NON è stata trovata
 */
 
-const listaMail = ['nomecognome1@mail.com',
-'nomecognome2@mail.com',
-'nomecognome3@mail.com',
-'nomecognome4@mail.com',
-'nomecognome5@mail.com',
-'nomecognome6@mail.com',
-'nomecognome7@mail.com',
-'nomecognome8@mail.com',
-'nomecognome9@mail.com',
-'nomecognome10@mail.com',
+const listaMail = ['nomecognome1@gmail.com',
+'nomecognome2@gmail.com',
+'nomecognome3@gmail.com',
+'nomecognome4@gmail.com',
+'nomecognome5@gmail.com',
+'nomecognome6@gmail.com',
+'nomecognome7@gmail.com',
+'nomecognome8@gmail.com',
+'nomecognome9@gmail.com',
+'nomecognome10@gmail.com',
 ];
 
-const cercaMail = false;
+console.log('elenco completo',listaMail);
 
-const inserisciMail = 'nomecognome1@mail.com'; //prompt('Qual\'è la tua mail?');
+const inserisciMail = prompt('Qual\'è la tua mail?');
+console.log('email inserita è',inserisciMail);
+
+let cercaMail = false;
+
+for(let i = 0; i < listaMail.length; i++){
+  
+  if(listaMail[i] === inserisciMail){
+    console.log('email inserita corrisponde a',listaMail[i]);
+    cercaMail = true;
+  }
+}
+
+if(cercaMail == true){
+  console.log(inserisciMail + ' trovata')
+} else {
+  console.log('email non trovata')
+}
