@@ -12,5 +12,15 @@
       - ALTRIMENTI dichiaro che NON è stata trovata
 */
 
-
+const listaMail = ['nomecognome1@mail.com',
+'nomecognome2@mail.com',
+'nomecognome3@mail.com',
+'nomecognome4@mail.com',
+'nomecognome5@mail.com',
+'nomecognome6@mail.com',
+'nomecognome7@mail.com',
+'nomecognome8@mail.com',
+'nomecognome9@mail.com',
+'nomecognome10@mail.com',
+];
 
