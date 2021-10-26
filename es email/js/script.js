@@ -26,3 +26,4 @@ const listaMail = ['nomecognome1@mail.com',
 
 const cercaMail = false;
 
+const inserisciMail = 'nomecognome1@mail.com'; //prompt('Qual\'è la tua mail?');
