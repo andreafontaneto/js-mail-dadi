@@ -39,8 +39,23 @@ for(let i = 0; i < listaMail.length; i++){
   }
 }
 
+
+const mymail = document.getElementById("mymail");
+
 if(cercaMail == true){
-  console.log(inserisciMail + ' trovata')
+  
+  console.log(inserisciMail + ' trovata');
+
+  mymail.innerHTML =
+  `
+  ${inserisciMail} è stata trovata
+  `;
 } else {
+  
   console.log('email non trovata')
+  
+  mymail.innerHTML =
+  `
+  la mail ${inserisciMail} non è stata trovata
+  `;
 }
